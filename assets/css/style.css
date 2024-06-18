@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: neuna;
+    background-color: #EAE7E0;
+
+}
+@font-face {
+    font-family: gilory;
+    src: url(../font/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: accumin;
+    src: url(../font/Acumin-ItPro.otf);
+}
+@font-face {
+    font-family: neuna;
+    src: url(../font/NeueMachina-Regular.otf);
+}
+nav{
+    display: flex;
+    height: 75px;
+    width: 100%;
+}
+nav .ul1{
+    padding: 25px 0px;
+    margin-left: 180px;
+}
+nav .ul2{
+    padding: 25px 40px;
+}
+nav li{
+    display: inline;
+    font-family: neuna;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+nav h1{
+font-family: accumin,Arial, Helvetica, sans-serif;
+font-size: 28px;
+padding-top: 22px;
+height: 1200px;
+text-align: center;
+width: 150px;
+color: #fff;
+background-color: #CA0202;
+}
+.hero-sec{
+    
+    margin-left: 10%;
+    height: 400px;
+    width: 80%;
+    display: flex;
+}
+.hero-sec .Collection{
+padding-top: 50px;
+}
+.hero-sec h4{
+    padding-top: 10px;
+color: #CA0202;
+    font-size: 20px;
+
+}
+.hero-sec .model-name{
+font-size: 90px;
+font-family: accumin;
+font-weight: 900;
+
+padding-left: 0px;
+padding-top: 10px;
+line-height: 1.2;
+}
+.part-1{
+    height:100%;
+    width: 33%;
+}
+.part-3{
+    height:100%;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.part-2{
+    height:100%;
+    margin-left: 2%;
+    width: 30%;
+}
+.part-2 img{
+    height: 90%;
+    margin-top: 60px;
+padding-left: 0px;
+}
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+.carousel-images {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin-left: 20%;
+    margin-top:10% ;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-image {
+    min-width: 100%;
+    transition: opacity 1s;
+}
+.carousel-image:not(.active) {
+    display: none;
+}
+.carousel-btn {
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.prev {
+    left:40px;
+    
+}
+.next {
+    right: -10px;
+}
+.intro-sec{
+    margin-left: 10%;
+    height: 500px;
+    width: 80%; 
+    display: flex;
+}
+.intro-part1{
+    height: 100%;
+    width: 30%;
+}
+.intro-part2{
+    height: 100%;
+    margin-left: 90px;
+    width: 30%;
+}
+.intro-part3{
+margin-left: 10%;
+    height: 100%;
+    width: 30%;
+}
+.intro-part1 img{
+    height: 20%;
+}
+.intro-part1 h1{
+    font-family: gilory;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.intro-part1 h1 span{
+    font-weight: 900;
+font-family: neuna;
+}
+.intro-part1 p,.intro-part3 p{
+    padding-left: 15px;
+}
+.intro-part3 h1{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+#section3{
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #000;
+}
+.font{
+    color: #CA0202;
+    font-size: 40vw;
+font-weight: 700;
+white-space: nowrap;
+ font-family: 'accumin';
+}
+.category-sec{
+    height: 500px;
+width: 100%;
+}
+.category-sec h1{
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #CA0202;
+}
+.category-sec h2{
+    color: #482924;
+    padding-left: 15%;
+    font-size: 65px;
+    font-weight: 900;
+}
+.line{
+    margin-left: 45%;
+    margin-top: -180px;
+    width: 1px;
+    height: 200px;
+    background-color: #CA0202;
+}
+.category-sec p{
+    width: 80%;
+     padding-left: 50%;
+     margin-top:-180px ;
+}
+.line2{
+    width: 48%;
+    margin-left: 28%;
+    margin-top: -25px;
+    height: 5px;
+    background-color: #A36B52;
+}
+.helmet1{
+margin-left: 380px;
+padding-top: 20px;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
